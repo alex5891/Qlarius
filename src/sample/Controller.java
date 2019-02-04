@@ -6,6 +6,7 @@ public class Controller {
     }
 
     void showAbout() {
-
+        AboutView about = new AboutView();
+        about.show();
     }
 }
